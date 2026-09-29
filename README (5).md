@@ -72,6 +72,6 @@ python control_brazo.py --sim                    # sin hardware, con señales si
 - **Comunicación en tiempo real:** el movimiento del brazo en la simulación sigue los movimientos de los sensores sin retraso apreciable, y la tasa de actualización se muestra en la terminal.
 
 ### Pantallazos
-![Simulación del brazo en PyBullet](imagenes/simulacion.png)
+![Simulación del brazo en PyBullet](pantallazo.png)
 
-![Salida en la terminal](imagenes/terminal.png)
+![Salida en la terminal](terminal.png)
