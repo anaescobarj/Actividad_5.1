@@ -38,7 +38,7 @@ Control en tiempo real de un brazo robótico con pinza, definido en un archivo U
 - Joystick: alimentación y GND del módulo, VRx al GPIO32 (VRy y SW sin usar).
 
 ### Montaje
-![Montaje del circuito](imagenes/montaje.png)
+![Montaje del circuito](montajebrazo.png)
 
 ## Funcionamiento
 1. **Lectura en el ESP32.** Cada entrada se lee con el ADC de 12 bits (0-4095). Para reducir el ruido se promedian 8 muestras. Cada 20 ms (50 Hz) el ESP32 envía por UART, a 115200 baudios, una línea con el formato `t_ms,a1,a2,a3`.
